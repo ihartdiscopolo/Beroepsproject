@@ -1,0 +1,10 @@
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\bin\Debug\MysteryNumber_Dominika.exe.config
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\bin\Debug\MysteryNumber_Dominika.exe
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\bin\Debug\MysteryNumber_Dominika.pdb
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\obj\Debug\MysteryNumber_Dominika.csproj.AssemblyReference.cache
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\obj\Debug\MysteryNumber_Dominika.MysteryNumber.resources
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\obj\Debug\MysteryNumber_Dominika.Properties.Resources.resources
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\obj\Debug\MysteryNumber_Dominika.csproj.GenerateResource.cache
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\obj\Debug\MysteryNumber_Dominika.csproj.CoreCompileInputs.cache
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\obj\Debug\MysteryNumber_Dominika.exe
+C:\Users\domin\OneDrive - ROC Ter AA\APPR\MYSTERYNUMBER\MysteryNumber_Dominika\obj\Debug\MysteryNumber_Dominika.pdb
