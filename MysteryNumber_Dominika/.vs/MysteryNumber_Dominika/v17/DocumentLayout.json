@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|c:\\users\\domin\\onedrive\\dokumenter\\github\\beroepsproject\\mysterynumber_dominika\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|c:\\users\\domin\\onedrive\\dokumenter\\github\\beroepsproject\\mysterynumber_dominika\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|c:\\users\\domin\\onedrive\\dokumenter\\github\\beroepsproject\\mysterynumber_dominika\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABCE2A4-0690-461F-BB5B-CC32BB95F8A3}|MysteryNumber_Dominika.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAkwOkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:51:25.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAArwHcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAswOMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:02:16.902Z",
+              "WhenOpened": "2024-11-01T20:50:59.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\domin\\OneDrive - ROC Ter AA\\APPR\\MYSTERYNUMBER\\MysteryNumber_Dominika\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\OneDrive - ROC Ter AA\\APPR\\MYSTERYNUMBER\\MysteryNumber_Dominika\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\domin\\OneDrive\\Dokumenter\\GitHub\\Beroepsproject\\MysteryNumber_Dominika\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T07:48:22.095Z"
+              "WhenOpened": "2024-10-30T07:48:22.095Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

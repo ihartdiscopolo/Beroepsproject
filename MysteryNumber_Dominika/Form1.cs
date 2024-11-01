@@ -19,6 +19,7 @@ namespace MysteryNumber_Dominika
         int minvalueDdeb = 0;
         int mysteryNumberDdeb = 0;
         int attemptsLeftDdeb = 0;
+        int wrongDdeb = 0;
         public MysteryNumber()
         {
             InitializeComponent();
@@ -50,6 +51,7 @@ namespace MysteryNumber_Dominika
             {
                 minvalueDdeb = int.Parse(tbxStartAtDdeb.Text);
                 maxvalueDdeb = int.Parse(tbxStopAtDdeb.Text);
+                attemptsLeftDdeb = int.Parse(tbxNumberOfAttempsDdeb.Text);
 
                 if (minvalueDdeb > maxvalueDdeb)
                 {
@@ -117,16 +119,17 @@ namespace MysteryNumber_Dominika
                     }
 
                 }
-                pbWrongDdeb.Value++;
+                wrongDdeb++;
                 attemptsLeftDdeb--;
                 MessageBox.Show($"Wrong guess attempts left {attemptsLeftDdeb}");
                 LogMessage($"Wrong guess {userGuess} try again!");
                 pbAttemptsLeftDdeb.Value = attemptsLeftDdeb;
+                pbWrongDdeb.Value = wrongDdeb;
 
                 int difference = Math.Abs(mysteryNumberDdeb - userGuess);
                 UpdateTemperatureMeter(difference);
 
-                if (attemptsLeftDdeb <= 0)
+                if (attemptsLeftDdeb == 0)
                 {
                     MessageBox.Show($"Game over, mystery number was {mysteryNumberDdeb}");
                     LogMessage("You suck");
@@ -171,8 +174,7 @@ namespace MysteryNumber_Dominika
             tbxStopAtDdeb.Clear();
             tbxMyGuessDdeb.Clear();
             tbxNumberOfAttempsDdeb.Clear();
-            pbAttemptsLeftDdeb.Value = 0;
-            pbWrongDdeb.Value = 0;
+            wrongDdeb = 0;
             rtbxInformationDdeb.Clear();
             gbxPlayDdeb.Enabled = false;
         }

@@ -36,7 +36,7 @@
             this.tbxNumberOfAttempsDdeb = new System.Windows.Forms.TextBox();
             this.tbxStopAtDdeb = new System.Windows.Forms.TextBox();
             this.btnGoDdeb = new System.Windows.Forms.Button();
-            this.lblNumberOfAttempsDdeb = new System.Windows.Forms.Label();
+            this.lblNumberOfAttemptsDdeb = new System.Windows.Forms.Label();
             this.lblStopAtDdeb = new System.Windows.Forms.Label();
             this.lblStartAtDdeb = new System.Windows.Forms.Label();
             this.tbxEnterYourNameDdeb = new System.Windows.Forms.TextBox();
@@ -74,10 +74,12 @@
             // 
             this.gbxSetupDdeb.Controls.Add(this.btnDefaultDdeb);
             this.gbxSetupDdeb.Controls.Add(this.tbxStartAtDdeb);
+            this.gbxSetupDdeb.Controls.Add(this.tbxEnterYourNameDdeb);
             this.gbxSetupDdeb.Controls.Add(this.tbxNumberOfAttempsDdeb);
+            this.gbxSetupDdeb.Controls.Add(this.lblEnterYourNameDdeb);
             this.gbxSetupDdeb.Controls.Add(this.tbxStopAtDdeb);
             this.gbxSetupDdeb.Controls.Add(this.btnGoDdeb);
-            this.gbxSetupDdeb.Controls.Add(this.lblNumberOfAttempsDdeb);
+            this.gbxSetupDdeb.Controls.Add(this.lblNumberOfAttemptsDdeb);
             this.gbxSetupDdeb.Controls.Add(this.lblStopAtDdeb);
             this.gbxSetupDdeb.Controls.Add(this.lblStartAtDdeb);
             this.gbxSetupDdeb.Location = new System.Drawing.Point(14, 12);
@@ -90,7 +92,7 @@
             // btnDefaultDdeb
             // 
             this.btnDefaultDdeb.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDefaultDdeb.Location = new System.Drawing.Point(270, 98);
+            this.btnDefaultDdeb.Location = new System.Drawing.Point(272, 98);
             this.btnDefaultDdeb.Name = "btnDefaultDdeb";
             this.btnDefaultDdeb.Size = new System.Drawing.Size(66, 23);
             this.btnDefaultDdeb.TabIndex = 10;
@@ -100,21 +102,21 @@
             // 
             // tbxStartAtDdeb
             // 
-            this.tbxStartAtDdeb.Location = new System.Drawing.Point(150, 31);
+            this.tbxStartAtDdeb.Location = new System.Drawing.Point(150, 42);
             this.tbxStartAtDdeb.Name = "tbxStartAtDdeb";
             this.tbxStartAtDdeb.Size = new System.Drawing.Size(108, 22);
             this.tbxStartAtDdeb.TabIndex = 6;
             // 
             // tbxNumberOfAttempsDdeb
             // 
-            this.tbxNumberOfAttempsDdeb.Location = new System.Drawing.Point(150, 90);
+            this.tbxNumberOfAttempsDdeb.Location = new System.Drawing.Point(150, 99);
             this.tbxNumberOfAttempsDdeb.Name = "tbxNumberOfAttempsDdeb";
             this.tbxNumberOfAttempsDdeb.Size = new System.Drawing.Size(108, 22);
             this.tbxNumberOfAttempsDdeb.TabIndex = 5;
             // 
             // tbxStopAtDdeb
             // 
-            this.tbxStopAtDdeb.Location = new System.Drawing.Point(150, 62);
+            this.tbxStopAtDdeb.Location = new System.Drawing.Point(150, 70);
             this.tbxStopAtDdeb.Name = "tbxStopAtDdeb";
             this.tbxStopAtDdeb.Size = new System.Drawing.Size(108, 22);
             this.tbxStopAtDdeb.TabIndex = 4;
@@ -122,7 +124,7 @@
             // btnGoDdeb
             // 
             this.btnGoDdeb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGoDdeb.Location = new System.Drawing.Point(268, 34);
+            this.btnGoDdeb.Location = new System.Drawing.Point(272, 34);
             this.btnGoDdeb.Name = "btnGoDdeb";
             this.btnGoDdeb.Size = new System.Drawing.Size(68, 58);
             this.btnGoDdeb.TabIndex = 3;
@@ -130,19 +132,19 @@
             this.btnGoDdeb.UseVisualStyleBackColor = true;
             this.btnGoDdeb.Click += new System.EventHandler(this.btnGoDdeb_Click);
             // 
-            // lblNumberOfAttempsDdeb
+            // lblNumberOfAttemptsDdeb
             // 
-            this.lblNumberOfAttempsDdeb.AutoSize = true;
-            this.lblNumberOfAttempsDdeb.Location = new System.Drawing.Point(7, 90);
-            this.lblNumberOfAttempsDdeb.Name = "lblNumberOfAttempsDdeb";
-            this.lblNumberOfAttempsDdeb.Size = new System.Drawing.Size(126, 16);
-            this.lblNumberOfAttempsDdeb.TabIndex = 2;
-            this.lblNumberOfAttempsDdeb.Text = "Number of attemps :";
+            this.lblNumberOfAttemptsDdeb.AutoSize = true;
+            this.lblNumberOfAttemptsDdeb.Location = new System.Drawing.Point(6, 98);
+            this.lblNumberOfAttemptsDdeb.Name = "lblNumberOfAttemptsDdeb";
+            this.lblNumberOfAttemptsDdeb.Size = new System.Drawing.Size(129, 16);
+            this.lblNumberOfAttemptsDdeb.TabIndex = 2;
+            this.lblNumberOfAttemptsDdeb.Text = "Number of attempts :";
             // 
             // lblStopAtDdeb
             // 
             this.lblStopAtDdeb.AutoSize = true;
-            this.lblStopAtDdeb.Location = new System.Drawing.Point(7, 57);
+            this.lblStopAtDdeb.Location = new System.Drawing.Point(7, 70);
             this.lblStopAtDdeb.Name = "lblStopAtDdeb";
             this.lblStopAtDdeb.Size = new System.Drawing.Size(55, 16);
             this.lblStopAtDdeb.TabIndex = 1;
@@ -151,7 +153,7 @@
             // lblStartAtDdeb
             // 
             this.lblStartAtDdeb.AutoSize = true;
-            this.lblStartAtDdeb.Location = new System.Drawing.Point(7, 34);
+            this.lblStartAtDdeb.Location = new System.Drawing.Point(6, 45);
             this.lblStartAtDdeb.Name = "lblStartAtDdeb";
             this.lblStartAtDdeb.Size = new System.Drawing.Size(54, 16);
             this.lblStartAtDdeb.TabIndex = 0;
@@ -159,7 +161,7 @@
             // 
             // tbxEnterYourNameDdeb
             // 
-            this.tbxEnterYourNameDdeb.Location = new System.Drawing.Point(511, 378);
+            this.tbxEnterYourNameDdeb.Location = new System.Drawing.Point(150, 14);
             this.tbxEnterYourNameDdeb.Name = "tbxEnterYourNameDdeb";
             this.tbxEnterYourNameDdeb.Size = new System.Drawing.Size(108, 22);
             this.tbxEnterYourNameDdeb.TabIndex = 8;
@@ -167,7 +169,7 @@
             // lblEnterYourNameDdeb
             // 
             this.lblEnterYourNameDdeb.AutoSize = true;
-            this.lblEnterYourNameDdeb.Location = new System.Drawing.Point(509, 359);
+            this.lblEnterYourNameDdeb.Location = new System.Drawing.Point(6, 20);
             this.lblEnterYourNameDdeb.Name = "lblEnterYourNameDdeb";
             this.lblEnterYourNameDdeb.Size = new System.Drawing.Size(110, 16);
             this.lblEnterYourNameDdeb.TabIndex = 7;
@@ -197,7 +199,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(275, 129);
+            this.label2.Location = new System.Drawing.Point(275, 121);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 20);
             this.label2.TabIndex = 14;
@@ -232,7 +234,7 @@
             // 
             // tbHotColdDdeb
             // 
-            this.tbHotColdDdeb.Location = new System.Drawing.Point(270, 28);
+            this.tbHotColdDdeb.Location = new System.Drawing.Point(272, 28);
             this.tbHotColdDdeb.Name = "tbHotColdDdeb";
             this.tbHotColdDdeb.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.tbHotColdDdeb.Size = new System.Drawing.Size(56, 104);
@@ -362,7 +364,7 @@
             this.pbxAlienDdeb.Image = ((System.Drawing.Image)(resources.GetObject("pbxAlienDdeb.Image")));
             this.pbxAlienDdeb.Location = new System.Drawing.Point(378, 12);
             this.pbxAlienDdeb.Name = "pbxAlienDdeb";
-            this.pbxAlienDdeb.Size = new System.Drawing.Size(351, 484);
+            this.pbxAlienDdeb.Size = new System.Drawing.Size(359, 484);
             this.pbxAlienDdeb.TabIndex = 7;
             this.pbxAlienDdeb.TabStop = false;
             // 
@@ -393,8 +395,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 500);
-            this.Controls.Add(this.tbxEnterYourNameDdeb);
-            this.Controls.Add(this.lblEnterYourNameDdeb);
             this.Controls.Add(this.lblDominikDdeb);
             this.Controls.Add(this.btnStartTheGameDdeb);
             this.Controls.Add(this.pbxAlienDdeb);
@@ -419,7 +419,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox gbxSetupDdeb;
-        private System.Windows.Forms.Label lblNumberOfAttempsDdeb;
+        private System.Windows.Forms.Label lblNumberOfAttemptsDdeb;
         private System.Windows.Forms.Label lblStopAtDdeb;
         private System.Windows.Forms.Label lblStartAtDdeb;
         private System.Windows.Forms.TextBox tbxStopAtDdeb;
